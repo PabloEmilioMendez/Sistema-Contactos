@@ -1,11 +1,11 @@
 package pm.contactos.servicio;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import pm.contactos.modelo.Contacto;
 import pm.contactos.repositorio.ContactoRepositorio;
-
 import java.util.List;
 
+@Service
 public class ContactoServicio implements IContactoServicio{
 
     @Autowired
